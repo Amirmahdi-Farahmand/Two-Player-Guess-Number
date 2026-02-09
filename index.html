@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess Number Duel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>🎯 Guess the Number</h1>
+      <p class="subtitle">Guess the correct number in your turn</p>
+
+      <header>
+        <button id="reset-btn">Restart 🔄</button>
+      </header>
+
+      <!--Modal-->
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>WINNER 🏆</h1>
+        <P id="winner-txt"></P>
+      </div>
+      <div class="overlay hidden"></div>
+
+      <!--Game area-->
+      <div class="game-area">
+        <!-- Player 1 -->
+        <div class="player">
+          <h2 id="player1-name">Player 1</h2>
+          <div class="previous-choice">
+            Previous selection:
+            <span id="p1-last">-</span>
+          </div>
+        </div>
+
+        <!-- Center Area -->
+        <div class="center-area">
+          <!-- Hint Panel -->
+          <div class="hint-panel">
+            <span id="left-hint">&lt;</span>
+            <span id="x" class="x">x</span>
+            <span id="right-hint">&lt;</span>
+          </div>
+
+          <!-- Numbers Board -->
+          <div class="numbers-board">
+            <!-- 1 تا 50 -->
+            <button class="num">1</button>
+            <button class="num">2</button>
+            <button class="num">3</button>
+            <button class="num">4</button>
+            <button class="num">5</button>
+            <button class="num">6</button>
+            <button class="num">7</button>
+            <button class="num">8</button>
+            <button class="num">9</button>
+            <button class="num">10</button>
+
+            <button class="num">11</button>
+            <button class="num">12</button>
+            <button class="num">13</button>
+            <button class="num">14</button>
+            <button class="num">15</button>
+            <button class="num">16</button>
+            <button class="num">17</button>
+            <button class="num">18</button>
+            <button class="num">19</button>
+            <button class="num">20</button>
+
+            <button class="num">21</button>
+            <button class="num">22</button>
+            <button class="num">23</button>
+            <button class="num">24</button>
+            <button class="num">25</button>
+            <button class="num">26</button>
+            <button class="num">27</button>
+            <button class="num">28</button>
+            <button class="num">29</button>
+            <button class="num">30</button>
+
+            <button class="num">31</button>
+            <button class="num">32</button>
+            <button class="num">33</button>
+            <button class="num">34</button>
+            <button class="num">35</button>
+            <button class="num">36</button>
+            <button class="num">37</button>
+            <button class="num">38</button>
+            <button class="num">39</button>
+            <button class="num">40</button>
+
+            <button class="num">41</button>
+            <button class="num">42</button>
+            <button class="num">43</button>
+            <button class="num">44</button>
+            <button class="num">45</button>
+            <button class="num">46</button>
+            <button class="num">47</button>
+            <button class="num">48</button>
+            <button class="num">49</button>
+            <button class="num">50</button>
+          </div>
+        </div>
+
+        <!-- Player 2 -->
+        <div class="player">
+          <h2 id="player2-name">Player 2</h2>
+          <div class="previous-choice">
+            Previous selection:
+            <span id="p2-last">-</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
