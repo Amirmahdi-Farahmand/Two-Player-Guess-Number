@@ -7,7 +7,7 @@ Take turns, guess smart, and claim victory! 🏆
 
 ## 🎮 Play Online
 Try the game in your browser:  
-[Play Two Player Guess The Number]([https://amirmahdi-farahmand.github.io/Two-Player-Guess-Number/])
+[Play Two Player Guess The Number][https://amirmahdi-farahmand.github.io/Two-Player-Guess-Number/]
 
 ---
 
